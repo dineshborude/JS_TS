@@ -53,4 +53,46 @@ function returnVowels(str) {
     return count;
 }
 
-console.log(returnVowels("ytrt"));
+// console.log(returnVowels("ytrt"));
+
+function countVowels(str) {
+
+    let count = 0;
+
+
+    for (let i of str) {
+        if (
+            i === 'a'|| 
+            i === 'e'|| 
+            i === 'i'|| 
+            i === 'o'|| 
+            i === 'u'
+        ) {
+            count++;
+        }
+    }
+    return count;
+
+}
+
+console.log(countVowels("aieou"));
+
+const countVowels2 = (str) => {
+     let count = 0;
+
+
+    for (let i of str) {
+        if (
+            i === 'a'|| 
+            i === 'e'|| 
+            i === 'i'|| 
+            i === 'o'|| 
+            i === 'u'
+        ) {
+            count++;
+        }
+    }
+    return count;
+}
+
+console.log(countVowels2("oweles"))
