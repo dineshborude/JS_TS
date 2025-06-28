@@ -15,4 +15,4 @@ function checkPallindrome(str) {
         console.log('Not Pallindrome');
     }
 }
-checkPallindrome('Evil is a name of a foeman, as I live')
+checkPallindrome('Evil is a name of a foeman, as I live'):
