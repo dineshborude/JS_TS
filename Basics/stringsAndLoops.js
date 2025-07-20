@@ -56,18 +56,24 @@ const readline = require('readline').createInterface({
   output: process.stdout
 });
 
-readline.question('Enter your fullname ', name => {
-  console.log(`Name :  ${name} !`);
+// readline.question('Enter your fullname ', name => {
+//   console.log(`Name :  ${name} !`);
 
-  for(let i = 2; i >= 1; i--) {
-    console.log(`Generating your username in ${i}s`);
-  }
+//   for(let i = 2; i >= 1; i--) {
+//     console.log(`Generating your username in ${i}s`);
+//   }
 
-  console.log(`Your Username is ${"@"+name.trim()+name.length}`);
-
-
+//   console.log(`Your Username is ${"@"+name.trim()+name.length}`);
 
 
-  readline.close();
 
-});
+
+//   readline.close();
+
+// });
+
+console.log("################## STRING INTERPOLATION ###################");
+let variable = "calling an variable or expression in template literals"
+let stringInterpolation = `${variable} is called STRING INTERPOLATION`;
+console.log(stringInterpolation);
+console.log(`Value of a + b is : ${1 + 2}`);

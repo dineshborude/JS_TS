@@ -16,3 +16,6 @@ function checkPallindrome(str) {
     }
 }
 checkPallindrome('Evil is a name of a foeman, as I live'):
+
+// https://sqlbolt.com/lesson/select_queries_with_outer_joins
+
