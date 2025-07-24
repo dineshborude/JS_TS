@@ -1,5 +1,5 @@
 function nameSetter() {
 
-    const name = "qwerty";
+    const name = "qwerthjy";
     
 }
