@@ -1,5 +1,5 @@
 function nameSetter() {
 
-    const name = "qwerthjy";
+    const name = "qwerthjhnnfy";
     
 }
