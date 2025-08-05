@@ -2,6 +2,7 @@
 var a = 10;
 let c = 20;
 
+
 function b() {
 
     var x = 100;
