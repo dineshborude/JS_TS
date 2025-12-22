@@ -1,0 +1,1 @@
+console.log(1>100?"greater":"smaller");
