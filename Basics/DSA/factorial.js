@@ -1,1 +1,0 @@
-let factorialOf = Number(prompt("Enter A Number You Want Factorials Of : "));
