@@ -1,5 +1,6 @@
 let number = 40585;
 let copy = number;
+
 let sum = 0;
 
 while(number > 0) {
