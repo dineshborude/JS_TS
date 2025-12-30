@@ -1,5 +1,10 @@
 for(let i = 1; i <= 5; i++) {
 
-    console.log("*");
+    for(let j = 1; j <= 5; j++) {
+
+    process.stdout.write("* ");
+
+    } 
+    console.log();
 
 }
