@@ -1,8 +1,16 @@
-let arr = [];
+// const prompt = require("prompt-sync")();
 
-arr.push(100,90,80);
 
-console.log(arr);
-arr.pop(90);
-console.log(arr);
+
+let arr = [10,20,30,40];
+let sum = 0;
+// let num = Number(prompt("Enter a number"));
+
+for(let i = 0; i < arr.length; i++) {
+
+    sum += arr[i];
+
+}
+
+console.log(sum);
 
